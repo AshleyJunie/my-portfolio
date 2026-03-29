@@ -6,6 +6,7 @@ import path from 'node:path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue(), tailwindcss()],
+  base: '/my-portfolio/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
