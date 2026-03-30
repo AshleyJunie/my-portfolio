@@ -28,7 +28,7 @@ const projects = [
     slug: 'holy-trinity-church-website',
     title: 'Holy Trinity Christian Community Church Website',
     category: 'Capstone Project',
-    image: '/projects/church-website.png',
+    image: './public/projects/church-website.png',
     description:
       'A church website developed to provide an online presence, share announcements, present ministry information, and make important content accessible to the community.',
     techStack: ['Laravel', 'Vue', 'MySQL', 'Tailwind CSS'],
