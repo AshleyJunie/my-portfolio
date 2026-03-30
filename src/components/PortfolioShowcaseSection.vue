@@ -28,7 +28,7 @@ const projects = [
     slug: 'holy-trinity-church-website',
     title: 'Holy Trinity Christian Community Church Website',
     category: 'Capstone Project',
-    image: './public/projects/church-website.png',
+    image: '/my-portfolio/projects/church-website.png',
     description:
       'A church website developed to provide an online presence, share announcements, present ministry information, and make important content accessible to the community.',
     techStack: ['Laravel', 'Vue', 'MySQL', 'Tailwind CSS'],
@@ -46,7 +46,7 @@ const projects = [
     slug: 'ojt-attendance-tracking-system',
     title: 'OJT Attendance Tracking System',
     category: 'DENR',
-    image: '/projects/ojt-attendance.png',
+    image: '/my-portfolio/projects/ojt-attendance.png',
     description:
       'A web-based attendance tracking system created to monitor and manage OJT attendance records efficiently.',
     techStack: ['Laravel', 'MySQL', 'Blade', 'Bootstrap'],
@@ -64,7 +64,7 @@ const projects = [
     slug: 'technical-assistance-ticketing-system',
     title: 'Technical Assistance Ticketing System',
     category: 'DENR',
-    image: '/projects/technical-assistance.png',
+    image: '/my-portfolio/projects/technical-assistance.png',
     description:
       'A ticketing and history tracking system designed to record technical concerns, monitor progress, and maintain issue history for reference.',
     techStack: ['Laravel', 'MySQL', 'JavaScript', 'Bootstrap'],
@@ -83,54 +83,54 @@ const projects = [
 const displayedProjects = computed(() => projects.slice(0, 6))
 
 const certificates = [
-  { title: 'Certificate 1', image: '/certificates/certificate-1.png' },
-  { title: 'Certificate 2', image: '/certificates/certificate-2.png' },
-  { title: 'Certificate 3', image: '/certificates/certificate-1.png' },
-  { title: 'Certificate 4', image: '/certificates/certificate-2.png' },
-  { title: 'Certificate 5', image: '/certificates/certificate-1.png' },
-  { title: 'Certificate 6', image: '/certificates/certificate-2.png' },
+  { title: 'Certificate 1', image: '/my-portfolio/certificates/certificate-1.png' },
+  { title: 'Certificate 2', image: '/my-portfolio/certificates/certificate-2.png' },
+  { title: 'Certificate 3', image: '/my-portfolio/certificates/certificate-1.png' },
+  { title: 'Certificate 4', image: '/my-portfolio/certificates/certificate-2.png' },
+  { title: 'Certificate 5', image: '/my-portfolio/certificates/certificate-1.png' },
+  { title: 'Certificate 6', image: '/my-portfolio/certificates/certificate-2.png' },
 ]
 
 const techStack = [
   {
     name: 'HTML',
-    logo: '/tech/html.png',
+    logo: '/my-portfolio/tech/html.png',
   },
   {
     name: 'CSS',
-    logo: '/tech/css-3.png',
+    logo: '/my-portfolio/tech/css-3.png',
   },
   {
     name: 'JavaScript',
-    logo: '/tech/js.png',
+    logo: '/my-portfolio/tech/js.png',
   },
   {
     name: 'Tailwind CSS',
-    logo: '/tech/tailwind.png',
+    logo: '/my-portfolio/tech/tailwind.png',
   },
   {
     name: 'Java',
-    logo: '/tech/java.png',
+    logo: '/my-portfolio/tech/java.png',
   },
   {
     name: 'Vite',
-    logo: '/tech/vite.png',
+    logo: '/my-portfolio/tech/vite.png',
   },
   {
     name: 'PHP',
-    logo: '/tech/php.png',
+    logo: '/my-portfolio/tech/php.png',
   },
   {
     name: 'Python',
-    logo: '/tech/python.png',
+    logo: '/my-portfolio/tech/python.png',
   },
   {
     name: 'Laravel',
-    logo: '/tech/laravel.png',
+    logo: '/my-portfolio/tech/laravel.png',
   },
   {
     name: 'MySQL',
-    logo: '/tech/mysql.png',
+    logo: '/my-portfolio/tech/mysql.png',
   },
 ]
 
