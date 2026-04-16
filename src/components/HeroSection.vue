@@ -2,6 +2,7 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import { Button } from '@/components/ui/button'
 import { Github, Linkedin, Mail, Facebook } from 'lucide-vue-next'
+import HeroProfileImage from './HeroProfileImage.vue'
 
 const roles = [
   'Fullstack Developer',
@@ -87,19 +88,7 @@ onBeforeUnmount(() => {
         </h2>
 
         <div class="mt-8 flex justify-center md:hidden">
-          <div class="relative">
-            <div class="absolute inset-0 rounded-[2rem] bg-cyan-400/20 blur-3xl" />
-
-            <div
-              class="relative h-[360px] w-[280px] overflow-hidden rounded-[2rem] border border-cyan-400/40 bg-slate-900 shadow-[0_0_60px_rgba(34,211,238,0.18)] sm:h-[430px] sm:w-[330px]"
-            >
-              <img
-                src="/profile.png"
-                alt="Profile"
-                class="h-full w-full object-cover"
-              />
-            </div>
-          </div>
+          <HeroProfileImage image-class="h-[360px] w-[280px] sm:h-[430px] sm:w-[330px]" />
         </div>
 
         <p class="mt-6 max-w-xl text-base leading-8 text-slate-400 sm:text-lg">
@@ -152,19 +141,7 @@ I build modern, scalable web applications with a focus on clean design and pract
       </div>
 
       <div class="hidden items-center justify-center md:flex md:justify-end">
-        <div class="relative">
-          <div class="absolute inset-0 rounded-[2rem] bg-cyan-400/20 blur-3xl" />
-
-          <div
-            class="relative h-[360px] w-[280px] overflow-hidden rounded-[2rem] border border-cyan-400/40 bg-slate-900 shadow-[0_0_60px_rgba(34,211,238,0.18)] sm:h-[430px] sm:w-[330px] lg:h-[520px] lg:w-[400px]"
-          >
-            <img
-              src="/profile.png"
-              alt="Profile"
-              class="h-full w-full object-cover"
-            />
-          </div>
-        </div>
+        <HeroProfileImage image-class="h-[360px] w-[280px] sm:h-[430px] sm:w-[330px] lg:h-[520px] lg:w-[400px]" />
       </div>
     </div>
   </section>
