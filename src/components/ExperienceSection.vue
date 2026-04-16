@@ -60,7 +60,7 @@ onBeforeUnmount(() => {
         </h2>
 
         <p class="mx-auto mt-4 max-w-3xl text-slate-400">
-          A summary of my internship experience in development and technical support.
+          A summary of my internship contribution in application development and technical operations.
         </p>
       </div>
 
@@ -128,17 +128,17 @@ onBeforeUnmount(() => {
             </h3>
 
             <p class="mt-6 text-slate-400">
-              Completed internship contributing to web development and technical support.
+              Completed internship delivering internal web solutions while supporting day-to-day technical requests.
             </p>
 
             <!-- RESPONSIBILITIES (stagger animation) -->
             <ul class="mt-6 space-y-3">
               <li
                 v-for="(item, i) in [
-                  'Fullstack development',
-                  'Documentation',
-                  'Troubleshooting',
-                  'Network setup'
+                  'Built and maintained fullstack web modules',
+                  'Prepared clear technical documentation',
+                  'Resolved software and hardware issues',
+                  'Supported basic network setup and configuration'
                 ]"
                 :key="i"
                 class="flex gap-3 text-slate-400 transition-all duration-500"
@@ -171,7 +171,7 @@ onBeforeUnmount(() => {
             >
               <h5 class="text-white font-semibold">Experience Highlight</h5>
               <p class="text-slate-400 mt-3">
-                Strengthened development + real-world IT support skills.
+                Strengthened fullstack delivery, communication, and real-world IT support capability.
               </p>
             </div>
           </div>

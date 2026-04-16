@@ -173,7 +173,7 @@ onBeforeUnmount(() => {
                 :href="link.href"
                 :class="[
                   'block rounded-md px-4 py-2 text-sm font-medium transition-all duration-200',
-                  activeSection.value === link.id
+                  activeSection === link.id
                     ? 'bg-white/10 text-cyan-400'
                     : 'text-slate-300 hover:bg-white/5 hover:text-white',
                 ]"
@@ -203,9 +203,11 @@ onBeforeUnmount(() => {
       </NavigationMenu>
 
       <div class="hidden md:block">
-        <Button class="bg-cyan-400 text-slate-950 hover:bg-cyan-300">
-          Hire Me
-        </Button>
+        <a href="#contact">
+          <Button class="bg-cyan-400 text-slate-950 hover:bg-cyan-300">
+            Let's Talk
+          </Button>
+        </a>
       </div>
 
       <!-- Mobile Toggle -->
@@ -297,9 +299,11 @@ onBeforeUnmount(() => {
           Contact
         </a>
 
-        <Button class="mt-3 w-full bg-cyan-400 text-slate-950 hover:bg-cyan-300">
-          Hire Me
-        </Button>
+        <a href="#contact" @click="closeMenus">
+          <Button class="mt-3 w-full bg-cyan-400 text-slate-950 hover:bg-cyan-300">
+            Let's Talk
+          </Button>
+        </a>
       </nav>
     </div>
   </header>

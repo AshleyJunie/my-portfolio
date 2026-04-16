@@ -71,7 +71,7 @@ onBeforeUnmount(() => {
     >
       <div class="mx-auto w-full max-w-2xl md:mx-0">
         <p class="mb-4 text-lg font-medium text-slate-200">
-          Hello, It's Me
+          Hello, I'm
         </p>
 
         <h1 class="text-5xl font-extrabold leading-none sm:text-6xl lg:text-[72px]">
@@ -79,7 +79,7 @@ onBeforeUnmount(() => {
         </h1>
 
         <h2 class="mt-4 text-2xl font-bold sm:text-3xl lg:text-4xl">
-          And I'm a
+          I build as a
           <span class="ml-2 inline-flex min-w-[340px] text-cyan-400">
             {{ displayedRole }}
             <span class="ml-1 inline-block h-[1em] w-[2px] animate-pulse bg-cyan-400 align-middle" />
@@ -87,13 +87,16 @@ onBeforeUnmount(() => {
         </h2>
 
         <p class="mt-6 max-w-xl text-base leading-8 text-slate-400 sm:text-lg">
-I build modern, scalable web applications with a focus on clean design and practical functionality. I leverage modern tools to work efficiently and deliver high-quality systems. I’m highly adaptable and can quickly work with different technologies and programming languages.
+          I develop modern, scalable web applications with a strong focus on clean
+          architecture, intuitive interfaces, and practical business outcomes.
+          I adapt quickly to new tools and deliver solutions with reliability and clarity.
         </p>
 
         <div class="mt-8 flex flex-wrap items-center gap-3">
           <a
             href="https://www.facebook.com/ashley.paglicawann"
             target="_blank"
+            rel="noopener noreferrer"
             class="flex h-11 w-11 items-center justify-center rounded-full border border-cyan-400/70 text-cyan-400 transition-all duration-200 hover:border-cyan-300 hover:bg-cyan-400/10 hover:text-cyan-300"
           >
             <Facebook class="h-4 w-4" />
@@ -102,6 +105,7 @@ I build modern, scalable web applications with a focus on clean design and pract
           <a
             href="https://github.com/AshleyJunie"
             target="_blank"
+            rel="noopener noreferrer"
             class="flex h-11 w-11 items-center justify-center rounded-full border border-cyan-400/70 text-cyan-400 transition-all duration-200 hover:border-cyan-300 hover:bg-cyan-400/10 hover:text-cyan-300"
           >
             <Github class="h-4 w-4" />
@@ -110,13 +114,14 @@ I build modern, scalable web applications with a focus on clean design and pract
           <a
             href="https://www.linkedin.com/in/ashley-junie-paglicawan-4a49883b2/"
             target="_blank"
+            rel="noopener noreferrer"
             class="flex h-11 w-11 items-center justify-center rounded-full border border-cyan-400/70 text-cyan-400 transition-all duration-200 hover:border-cyan-300 hover:bg-cyan-400/10 hover:text-cyan-300"
           >
             <Linkedin class="h-4 w-4" />
           </a>
 
           <a
-            href="#"
+            href="mailto:ashleyjunie.paglicawan@gmail.com?subject=Portfolio%20Inquiry"
             class="flex h-11 w-11 items-center justify-center rounded-full border border-cyan-400/70 text-cyan-400 transition-all duration-200 hover:border-cyan-300 hover:bg-cyan-400/10 hover:text-cyan-300"
           >
             <Mail class="h-4 w-4" />
@@ -124,11 +129,13 @@ I build modern, scalable web applications with a focus on clean design and pract
         </div>
 
         <div class="mt-10">
-          <Button
-            class="rounded-xl bg-cyan-400 px-8 py-6 text-base font-medium text-slate-950 shadow-[0_10px_30px_rgba(34,211,238,0.18)] transition-all duration-200 hover:bg-cyan-300 hover:shadow-[0_12px_36px_rgba(34,211,238,0.22)]"
-          >
-            Download CV
-          </Button>
+          <a href="#contact">
+            <Button
+              class="rounded-xl bg-cyan-400 px-8 py-6 text-base font-medium text-slate-950 shadow-[0_10px_30px_rgba(34,211,238,0.18)] transition-all duration-200 hover:bg-cyan-300 hover:shadow-[0_12px_36px_rgba(34,211,238,0.22)]"
+            >
+              Contact Me
+            </Button>
+          </a>
         </div>
       </div>
 

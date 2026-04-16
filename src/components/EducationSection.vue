@@ -139,10 +139,10 @@ onBeforeUnmount(() => {
                 Cum Laude
               </span>
               <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm font-medium text-slate-300">
-                Dean Lister
+                Dean's Lister
               </span>
               <span class="rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-sm font-medium text-amber-300">
-                President Lister
+                President's Lister
               </span>
             </div>
           </div>
