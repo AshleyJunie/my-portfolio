@@ -24,7 +24,9 @@ import { Github, Linkedin, Mail, Facebook } from 'lucide-vue-next'
 
       <div class="flex flex-wrap items-center gap-3">
         <a
-          href="#"
+          href="https://www.facebook.com/ashley.paglicawann"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="Facebook"
           class="flex h-10 w-10 items-center justify-center rounded-full border border-cyan-400/60 text-cyan-400 transition-all duration-200 hover:border-cyan-300 hover:bg-cyan-400/10 hover:text-cyan-300"
         >
@@ -32,7 +34,9 @@ import { Github, Linkedin, Mail, Facebook } from 'lucide-vue-next'
         </a>
 
         <a
-          href="#"
+          href="https://github.com/AshleyJunie"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="GitHub"
           class="flex h-10 w-10 items-center justify-center rounded-full border border-cyan-400/60 text-cyan-400 transition-all duration-200 hover:border-cyan-300 hover:bg-cyan-400/10 hover:text-cyan-300"
         >
@@ -40,7 +44,9 @@ import { Github, Linkedin, Mail, Facebook } from 'lucide-vue-next'
         </a>
 
         <a
-          href="#"
+          href="https://www.linkedin.com/in/ashley-junie-paglicawan-4a49883b2/"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="LinkedIn"
           class="flex h-10 w-10 items-center justify-center rounded-full border border-cyan-400/60 text-cyan-400 transition-all duration-200 hover:border-cyan-300 hover:bg-cyan-400/10 hover:text-cyan-300"
         >

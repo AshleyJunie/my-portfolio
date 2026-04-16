@@ -195,7 +195,7 @@ const closeProjectDetails = () => {
                     <p class="text-2xl font-bold text-white">
                       {{ selectedProject.techStack.length }}
                     </p>
-                    <p class="mt-1 text-sm text-slate-400">Total Teknologi</p>
+                    <p class="mt-1 text-sm text-slate-400">Technologies</p>
                   </div>
                 </div>
               </div>
@@ -209,7 +209,7 @@ const closeProjectDetails = () => {
                     <p class="text-2xl font-bold text-white">
                       {{ selectedProject.features.length }}
                     </p>
-                    <p class="mt-1 text-sm text-slate-400">Fitur Utama</p>
+                    <p class="mt-1 text-sm text-slate-400">Key Features</p>
                   </div>
                 </div>
               </div>
@@ -232,12 +232,12 @@ const closeProjectDetails = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button class="bg-fuchsia-600/80 px-6 py-6 text-white hover:bg-fuchsia-500">
-                  <Github class="mr-2 h-4 w-4" />
-                  Github
-                </Button>
-              </a>
-            </div>
+                  <Button class="bg-fuchsia-600/80 px-6 py-6 text-white hover:bg-fuchsia-500">
+                    <Github class="mr-2 h-4 w-4" />
+                    GitHub
+                  </Button>
+                </a>
+              </div>
 
             <div class="mt-10">
               <h3 class="flex items-center gap-2 text-xl font-semibold text-white">

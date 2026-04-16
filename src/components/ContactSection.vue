@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { Mail, Phone, MapPin } from 'lucide-vue-next'
 
-const recipientEmail = 'your-email@example.com'
+const recipientEmail = 'ashleyjunie.paglicawan@gmail.com'
 
 const name = ref('')
 const email = ref('')
@@ -94,7 +94,7 @@ function sendEmail() {
           <div class="p-6 md:p-8">
             <h3 class="text-2xl font-bold text-white">Send a Message</h3>
             <p class="mt-3 text-slate-400">
-              Fill out the form below and your default email app will open.
+              Fill out the form below and your default email app will open with your message pre-filled.
             </p>
 
             <form

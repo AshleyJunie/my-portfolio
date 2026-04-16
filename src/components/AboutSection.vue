@@ -84,34 +84,33 @@ onBeforeUnmount(() => {
           class="text-3xl font-extrabold leading-tight transition-all delay-200 duration-700 sm:text-4xl lg:text-5xl"
           :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'"
         >
-          Building clean and modern
-          <span class="text-cyan-400">web experiences</span>
+          Building reliable and modern
+          <span class="text-cyan-400">digital products</span>
         </h2>
 
         <h3
           class="mt-4 text-lg font-medium text-slate-300 transition-all delay-300 duration-700 sm:text-xl"
           :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'"
         >
-          Fullstack Developer / Prompt Engineer
+          Fullstack Developer
         </h3>
 
         <p
           class="mt-6 text-base leading-8 text-slate-400 transition-all delay-500 duration-700 sm:text-lg"
           :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'"
         >
-          I’m passionate about building modern, responsive web applications that
-          combine clean design with practical functionality. I focus on creating
-          user-friendly interfaces and scalable systems that deliver real value.
+          I focus on creating responsive web applications that balance visual
+          quality, usability, and maintainable architecture. My goal is to deliver
+          software that solves real problems and provides a smooth user experience.
         </p>
 
         <p
           class="mt-4 text-base leading-8 text-slate-400 transition-all delay-700 duration-700 sm:text-lg"
           :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'"
         >
-          I work efficiently and can quickly turn ideas into fully functional
-          applications while maintaining clean and maintainable code. I’m also
-          highly adaptable and comfortable working with different technologies
-          and programming languages depending on project needs.
+          I enjoy collaborating with teams, translating requirements into clear
+          implementation plans, and shipping features with attention to detail.
+          I am adaptable across technologies and committed to continuous learning.
         </p>
       </div>
     </div>
