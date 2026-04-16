@@ -67,9 +67,9 @@ onBeforeUnmount(() => {
     <div class="absolute inset-0 bg-[radial-gradient(circle_at_75%_45%,rgba(34,211,238,0.16),transparent_26%)]" />
 
     <div
-      class="relative grid w-full grid-cols-1 items-center gap-14 px-6 py-24 md:min-h-[100vh] md:grid-cols-2 md:px-16 lg:px-24 xl:px-32"
+      class="relative mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-14 px-6 py-24 md:min-h-[100vh] md:grid-cols-2 md:px-12 lg:px-16"
     >
-      <div class="mx-auto w-full max-w-2xl md:mx-0">
+      <div class="mx-auto w-full max-w-2xl text-center md:mx-0 md:text-left">
         <p class="mb-4 text-lg font-medium text-slate-200">
           Hello, It's Me
         </p>
@@ -80,20 +80,37 @@ onBeforeUnmount(() => {
 
         <h2 class="mt-4 text-2xl font-bold sm:text-3xl lg:text-4xl">
           And I'm a
-          <span class="ml-2 inline-flex min-w-[340px] text-cyan-400">
+          <span class="ml-2 inline-flex min-w-[220px] text-cyan-400 sm:min-w-[340px]">
             {{ displayedRole }}
             <span class="ml-1 inline-block h-[1em] w-[2px] animate-pulse bg-cyan-400 align-middle" />
           </span>
         </h2>
 
+        <div class="mt-8 flex justify-center md:hidden">
+          <div class="relative">
+            <div class="absolute inset-0 rounded-[2rem] bg-cyan-400/20 blur-3xl" />
+
+            <div
+              class="relative h-[360px] w-[280px] overflow-hidden rounded-[2rem] border border-cyan-400/40 bg-slate-900 shadow-[0_0_60px_rgba(34,211,238,0.18)] sm:h-[430px] sm:w-[330px]"
+            >
+              <img
+                src="/profile.png"
+                alt="Profile"
+                class="h-full w-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+
         <p class="mt-6 max-w-xl text-base leading-8 text-slate-400 sm:text-lg">
 I build modern, scalable web applications with a focus on clean design and practical functionality. I leverage modern tools to work efficiently and deliver high-quality systems. I’m highly adaptable and can quickly work with different technologies and programming languages.
         </p>
 
-        <div class="mt-8 flex flex-wrap items-center gap-3">
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-3 md:justify-start">
           <a
             href="https://www.facebook.com/ashley.paglicawann"
             target="_blank"
+            rel="noopener noreferrer"
             class="flex h-11 w-11 items-center justify-center rounded-full border border-cyan-400/70 text-cyan-400 transition-all duration-200 hover:border-cyan-300 hover:bg-cyan-400/10 hover:text-cyan-300"
           >
             <Facebook class="h-4 w-4" />
@@ -102,6 +119,7 @@ I build modern, scalable web applications with a focus on clean design and pract
           <a
             href="https://github.com/AshleyJunie"
             target="_blank"
+            rel="noopener noreferrer"
             class="flex h-11 w-11 items-center justify-center rounded-full border border-cyan-400/70 text-cyan-400 transition-all duration-200 hover:border-cyan-300 hover:bg-cyan-400/10 hover:text-cyan-300"
           >
             <Github class="h-4 w-4" />
@@ -110,6 +128,7 @@ I build modern, scalable web applications with a focus on clean design and pract
           <a
             href="https://www.linkedin.com/in/ashley-junie-paglicawan-4a49883b2/"
             target="_blank"
+            rel="noopener noreferrer"
             class="flex h-11 w-11 items-center justify-center rounded-full border border-cyan-400/70 text-cyan-400 transition-all duration-200 hover:border-cyan-300 hover:bg-cyan-400/10 hover:text-cyan-300"
           >
             <Linkedin class="h-4 w-4" />
@@ -132,7 +151,7 @@ I build modern, scalable web applications with a focus on clean design and pract
         </div>
       </div>
 
-      <div class="flex items-center justify-center md:justify-end">
+      <div class="hidden items-center justify-center md:flex md:justify-end">
         <div class="relative">
           <div class="absolute inset-0 rounded-[2rem] bg-cyan-400/20 blur-3xl" />
 
