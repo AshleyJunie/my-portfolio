@@ -58,6 +58,13 @@ onMounted(() => {
 onBeforeUnmount(() => {
   if (timer) clearTimeout(timer)
 })
+
+function downloadCV() {
+  const link = document.createElement('a')
+  link.href = '/CV.pdf'
+  link.download = 'Ashley-CV.pdf'
+  link.click()
+}
 </script>
 
 <template>
@@ -134,6 +141,7 @@ I build modern, scalable web applications with a focus on clean design and pract
         <div class="mt-10">
           <Button
             class="rounded-xl bg-cyan-400 px-8 py-6 text-base font-medium text-slate-950 shadow-[0_10px_30px_rgba(34,211,238,0.18)] transition-all duration-200 hover:bg-cyan-300 hover:shadow-[0_12px_36px_rgba(34,211,238,0.22)]"
+            @click="downloadCV"
           >
             Download CV
           </Button>
