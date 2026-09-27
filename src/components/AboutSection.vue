@@ -61,7 +61,7 @@ onBeforeUnmount(() => {
             class="relative h-[340px] w-[270px] overflow-hidden rounded-[2rem] border border-cyan-400/30 bg-slate-950 shadow-[0_0_50px_rgba(34,211,238,0.12)] transition-all duration-500 group-hover:-translate-y-2 group-hover:scale-[1.02] group-hover:shadow-[0_0_60px_rgba(34,211,238,0.22)] sm:h-[400px] sm:w-[320px] lg:h-[460px] lg:w-[360px]"
           >
             <img
-              src="/profile.png"
+              src="/profile2.png"
               alt="About profile"
               class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
